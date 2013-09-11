@@ -95,7 +95,7 @@ You are a liar, or just sadly mistaken.
 * Download and Install `git' http://git-scm.com/downloads
 * Sign up for https://bitbucket.org/ and https://github.com/
 * You set up a repository `git init`
-* You add files to it `git add .`
+* You add files to it `git add .` (the . is intentional - saying all files)
 * You commit that to a repository ALWAYS with a comment (still local) `git commit -m "Comments are delicious"`
 * (Optional) You push to a web repository `git push origin master`
     * For this you need to have `git remote add https://github.com/user/repo.git`
