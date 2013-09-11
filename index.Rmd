@@ -27,7 +27,8 @@ mode        : selfcontained # {standalone, draft}
 * Go to here http://www.gradhacker.org/2013/08/29/4781/
     * General tips for grad school
 * Get LaTeX (already noted)
-* Get a Text Editor - with text highlighting
+* Get a Text Editor - with text highlighting <img src="cluster.jpg" style="width:250px; height:250px; float:right;" alt="Lot of code" >
+
    * You will get .txt, .csv, .rtf, .html - just have one you like
    * Preferably something that works with the cluster
    * Notepad++
@@ -38,13 +39,14 @@ mode        : selfcontained # {standalone, draft}
 ---
 
 ## Tools for stuff - reproducibility
-<img src="ppt.jpg" style="width:233px; height:200px; float:right;" alt="Lot of code" >
+<img src="ppt.jpg" style="width:250px; height:225px; float:right;  float:right;margin:0px 0px 0px 30px" alt="Lot of code" >
 
 * `Sweave` - http://www.stat.uni-muenchen.de/~leisch/Sweave/
      * Allows for reproducible code (LaTeX and R together)
      * Beamer allows for ppt-like presentations
 * `knitr` http://yihui.name/knitr/ - Sweave upgrade 
-    * Don't be like this guy http://www.nytimes.com/2011/07/08/health/research/08genes.html?_r=0
+    * Duke Scandal - non reproducible
+    * http://www.nytimes.com/2011/07/08/health/research/08genes.html?_r=0
     * RStudio has a button for this - so you know it's good
 * `slidify` - make presentations as cool as this one (or try) http://slidify.org/
     * Allows you to make knitted presentations
@@ -57,9 +59,9 @@ mode        : selfcontained # {standalone, draft}
 * `git`  http://git-scm.com/downloads
     * Ever forget to save a Word Doc - try that with 1000 lines of code
     * Versioning software that allows you to revert to old copies
-    * See differences over time
+    * See differences over time <img src="pandoc.jpg" style="width:350px; height:300px; float:right;" alt="Lot of code" >
     * SourceTree allows you to visualize the trajectory
-* `pandoc` - http://johnmacfarlane.net/pandoc/ <img src="pandoc.jpg" style="width:350px; height:300px; float:right;" alt="Lot of code" >
+* `pandoc` - http://johnmacfarlane.net/pandoc/ 
     * "Can you save that in Word, I hate PDFs" 
     * Allows conversion to a lot of different formats for your .tex/.md, etc.
 
@@ -68,9 +70,8 @@ mode        : selfcontained # {standalone, draft}
 ## Why do I need these things?
 
 You may say to yourself 2 things
-* I backup my stuff I don't need `git`
-* I'm super organized with folders and naming conventions, I don't need `knitr` or `Sweave`, I can find my plots/analysis/results
-<img src="organized.jpg" style="width:350px; height:300px; float:right;" alt="Lot of code" >
+* I backup my stuff I don't need `git` <img src="organized.jpg" style="width:350px; height:300px; float:right;border:20px;margin:30px" >
+* I'm super organized with folders and naming conventions, I don't need `knitr` or `Sweave`, I can find my plots/analysis/results 
 
 ---
 
@@ -99,5 +100,4 @@ You are a liar, or just sadly mistaken.
 * You commit that to a repository ALWAYS with a comment (still local) `git commit -m "Comments are delicious"`
 * (Optional) You push to a web repository `git push origin master`
     * For this you need to have `git remote add https://github.com/user/repo.git`
-* BrainR example https://github.com/muschellij2/brainR
----
+* brainR example https://github.com/muschellij2/brainR
