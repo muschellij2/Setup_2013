@@ -51,7 +51,6 @@ mode        : selfcontained # {standalone, draft}
 * `slidify` - make presentations as cool as this one (or try) http://slidify.org/
     * Allows you to make knitted presentations
 
-
 ---
 
 ## Tools for stuff
@@ -109,4 +108,10 @@ You are a liar, or just sadly mistaken.
 * Leonardo Collado Torres made a great slide deck last year
 * https://bitbucket.org/lcolladotor/html_git_intro/src/1d72a21b1b7ed4421da165bd2f9d377a5f7f0f4b/slides/html_git.pdf?at=master
 * Also - set up a website.
+
+## Learn the Term
+
+* Terminal will become your best friend
+* You can do things faster (and scriptable) by doing things in the terminal
+* Life will be easier on the cluster
 
