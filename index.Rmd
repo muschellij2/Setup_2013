@@ -93,7 +93,7 @@ You are a liar, or just sadly mistaken.
 
 ## Real quick `git`
 
-* Download and Install `git' http://git-scm.com/downloads
+* Download and Install `git` http://git-scm.com/downloads
 * Sign up for https://bitbucket.org/ and https://github.com/
 * You set up a repository `git init`
 * You add files to it `git add .` (the . is intentional - saying all files)
@@ -101,3 +101,12 @@ You are a liar, or just sadly mistaken.
 * (Optional) You push to a web repository `git push origin master`
     * For this you need to have `git remote add https://github.com/user/repo.git`
 * brainR example https://github.com/muschellij2/brainR
+
+---
+
+## Don't re-invent the wheel
+
+* Leonardo Collado Torres made a great slide deck last year
+* https://bitbucket.org/lcolladotor/html_git_intro/src/1d72a21b1b7ed4421da165bd2f9d377a5f7f0f4b/slides/html_git.pdf?at=master
+* Also - set up a website.
+
